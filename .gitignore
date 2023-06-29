@@ -6,6 +6,27 @@ __pycache__/
 # C extensions
 *.so
 
+# user files
+/annotations/*.json
+captions/image_captions_df/
+captions/*[.parquet,.csv,.json]
+!captions/image_captions_df_less_than_15.parquet
+*.pth
+*.pt
+.vscode
+.idea
+/coco_full/runs_coco_full/
+.vector_cache
+runs/
+/labels/
+train2014/
+/captions_train-val2014.zip
+/instances_train-val2014.zip
+/labels.tgz
+/train2014.zip
+
+
+
 # Distribution / packaging
 .Python
 build/
